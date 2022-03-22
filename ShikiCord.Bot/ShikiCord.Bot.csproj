@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="DSharpPlus.SlashCommands" Version="4.2.0-nightly-01099" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0-preview.2.22153.1">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -34,14 +35,6 @@
       <None Update="../ShikiCord.Db/dbsettings.'$(SHIKICORD_ENVIRONMENT)'.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Modules" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Compile Remove="Modules\Shikimori.cs" />
     </ItemGroup>
 
 </Project>

@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using DSharpPlus.SlashCommands;
 
 var environment = Environment.GetEnvironmentVariable("SHIKICORD_ENVIRONMENT")!;
 

@@ -1,5 +1,4 @@
 ﻿{
-    "DiscordToken": "TOKEN",
     "ConnectionStrings": {
         "ShikiCordDb": "POSTGRES_DB_CONNECTION_STRING"
     }
