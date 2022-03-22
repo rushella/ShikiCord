@@ -36,4 +36,12 @@
       </None>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Modules" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Modules\Shikimori.cs" />
+    </ItemGroup>
+
 </Project>
