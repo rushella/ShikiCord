@@ -7,7 +7,23 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Services" />
+      <PackageReference Include="DSharpPlus" Version="4.2.0-nightly-01099" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0-preview.2.22152.2" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0-preview.2.22152.2" />
+      <PackageReference Include="ShikimoriSharp" Version="1.3.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="shikicordsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="shikicordsettings.'$(SHIKICORD_ENVIRONMENT)'.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ShikiCord.Db\ShikiCord.Db.csproj" />
     </ItemGroup>
 
 </Project>

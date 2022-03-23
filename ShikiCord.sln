@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShikiCord.Bot", "ShikiCord.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShikiCord.Db", "ShikiCord.Db\ShikiCord.Db.csproj", "{AAF26D51-48CA-4100-A1B3-AE9728FA6DAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShikiCord.Api", "ShikiCord.Api\ShikiCord.Api.csproj", "{E27A61AA-EFA9-4FC9-95B2-67092C8CFA47}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShikiCord.Core", "ShikiCord.Core\ShikiCord.Core.csproj", "{FF00D3E3-94B4-4B17-881D-4BC04CFCC719}"
 EndProject
 Global
@@ -22,10 +20,6 @@ Global
 		{AAF26D51-48CA-4100-A1B3-AE9728FA6DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAF26D51-48CA-4100-A1B3-AE9728FA6DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAF26D51-48CA-4100-A1B3-AE9728FA6DAB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E27A61AA-EFA9-4FC9-95B2-67092C8CFA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E27A61AA-EFA9-4FC9-95B2-67092C8CFA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E27A61AA-EFA9-4FC9-95B2-67092C8CFA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E27A61AA-EFA9-4FC9-95B2-67092C8CFA47}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FF00D3E3-94B4-4B17-881D-4BC04CFCC719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FF00D3E3-94B4-4B17-881D-4BC04CFCC719}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF00D3E3-94B4-4B17-881D-4BC04CFCC719}.Release|Any CPU.ActiveCfg = Release|Any CPU
