@@ -22,7 +22,7 @@ public static class ShikiCordConfigurationManager
         return new DiscordConfiguration
         {
             TokenType = TokenType.Bot,
-            Token = "NzM2MTAzMDM1MDUwMjYyNTc5.Xxp7Xw.A719uc5-FjwvmWARCHuxNEVUnIY",
+            Token = configurationRoot["Discord:BotToken"],
             AutoReconnect = true,
             MinimumLogLevel = LogLevel.Debug,
         };
